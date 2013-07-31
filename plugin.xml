@@ -19,7 +19,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="NetworkStatus">
-                <param name="android-package" value="org.apache.cordova.core.NetworkManager"/>
+                <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager"/>
             </feature>   
         </config-file>
         
@@ -27,7 +27,7 @@
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
         </config-file>
 
-        <source-file src="src/android/NetworkManager.java" target-dir="src/org/apache/cordova/core" />
+        <source-file src="src/android/NetworkManager.java" target-dir="src/org/apache/cordova/networkinformation" />
         
     </platform>
 
